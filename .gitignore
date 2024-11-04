@@ -10,4 +10,5 @@ Cargo.lock
 
 # ignore temporary directories for tests
 **/tmp/*.md
+**/tmp/dir/*.md
 **/fixtures/*.md

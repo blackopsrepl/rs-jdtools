@@ -1,7 +1,7 @@
 use clap::Parser;
 use std::path::PathBuf;
 
-use jdtools::markdown::extract_markdown_files_recursive;
+use jdtools::extract::extract_markdown_files_recursive;
 
 #[derive(Parser)]
 #[command(
